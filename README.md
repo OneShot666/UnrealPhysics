@@ -9,6 +9,7 @@ Use the power of physic to finish these challenges !
 Ce projet est une exploration technique des systèmes de physique, d'interaction et de possession sous Unreal Engine. 
 Il se compose de trois mécaniques distinctes, présentes dans un des trois niveaux du jeu.
 
+
 ### 🕹️ Mécaniques utilisées
 
 1. Manipulation d'objets
@@ -35,6 +36,7 @@ Balles Rebondissantes : Le joueur peut attraper des balles et lancer lâcher ave
 Ces balles ont été configurées avec une restitution élevée pour conserver leur énergie cinétique.
 Le "Push" : Une onde de choc qui repousse les objets proches avec une puissante force.
 
+
 ### 🛠️ Choix techniques
 
 Fonctionnalités adéquates : Utilisations de noeuds tels que "Add Impulse" ou "GrabComponent" pour gérer les forces appliquées aux objets.
@@ -43,6 +45,7 @@ Communication par référence : Mise en place de variables "Expose on Spawn" afi
 Organisation des blueprints : Utilisation des dossiers, ajouts de noeuds, couleurs et commentaires pour garder une architecture propre et lisible.
 Interface utilisateur : Création d'interfaces dynamiques (ex: barre de progression, inputs) afin d'indiquer au joueur les actions disponibles.
 Gestion des inputs : Utilisation d'IMC et IA pour gérer la transition fluide entre le déplacement du personnage et le contrôle des canons.
+
 
 ### ⚠️ Problèmes rencontrés
 
@@ -70,6 +73,7 @@ Solution : Utilisation des nœuds Set Input Mode UI Only et Set Show Mouse Curso
 
 Problème : Échec de la compilation car le dossier de build était verrouillé par un processus tiers.
 Solution : Nettoyage manuel des dossiers Binaries et Intermediate, et vérification des processus fantômes dans le gestionnaire des tâches.
+
 
 ## Merci d'avoir joué !
 
