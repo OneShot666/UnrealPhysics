@@ -4,14 +4,14 @@ Use the power of physic to finish these challenges !
 
 ---
 
-### 🌀 Description du gameplay
+## 🌀 Description du gameplay
 
 Ce projet est une exploration technique des systèmes de physique, d'interaction et de possession sous Unreal Engine. 
 Il se compose de trois mécaniques distinctes, présentes dans un des trois niveaux du jeu.
 
-##### 🕹️ Mécaniques utilisées
+### 🕹️ Mécaniques utilisées
 
-1- Manipulation d'objets
+1. Manipulation d'objets
 
 Ce niveau introduit un système d'interaction basé sur la détection d'objets et l'attachement dynamique.
 Le joueur peut attraper des cubes et autres objets movibles en utilisant un système de grab déjà présent dans Unreal Engine.
@@ -21,21 +21,21 @@ Comportements Chromatiques : La physique des cubes après les avoir lâcher dép
 - Orange : Tombe et cesse de suivre lel joueur
 - Rose : Devient complètement statique tant qu'il n'est pas attrapé de nouveau
 
-2- Système de Propulsion
+2. Système de Propulsion
 
 Focus sur le changement de point de vue et la gestion des trajectoires.
 Possession de Canon : À l'approche d'un canon, le joueur quitte son personnage pour le posséder.
 Il peut alors s'orienter pour viser, tirer ou sortir du canon.
 Power Charge : Un système de jauge de puissance affiche la force de propulsion lors du tir.
 
-3- Physique avancée & Pouvoirs
+3. Physique avancée & Pouvoirs
 
 Surfaces Glissantes : Quand le joueur arrive sur de la glace, cette dernière a une friction proche de zéro, ce qui a pour effet de faire glisser le joueur et rendre ses mouvements plus compliqués.
 Balles Rebondissantes : Le joueur peut attraper des balles et lancer lâcher avec un certain élan afin de les faire rebondir. 
 Ces balles ont été configurées avec une restitution élevée pour conserver leur énergie cinétique.
 Le "Push" : Une onde de choc qui repousse les objets proches avec une puissante force.
 
-##### 🛠️ Choix techniques
+### 🛠️ Choix techniques
 
 Fonctionnalités adéquates : Utilisations de noeuds tels que "Add Impulse" ou "GrabComponent" pour gérer les forces appliquées aux objets.
 Attributs intrinsèques : Modifications et créations de matériaux physiques pour ajouter des propriétés intéressantes aux objets et décors (balles, glace...)
@@ -44,7 +44,7 @@ Organisation des blueprints : Utilisation des dossiers, ajouts de noeuds, couleu
 Interface utilisateur : Création d'interfaces dynamiques (ex: barre de progression, inputs) afin d'indiquer au joueur les actions disponibles.
 Gestion des inputs : Utilisation d'IMC et IA pour gérer la transition fluide entre le déplacement du personnage et le contrôle des canons.
 
-##### ⚠️ Problèmes rencontrés
+### ⚠️ Problèmes rencontrés
 
 1. Chômage cubique
 
